@@ -11,19 +11,19 @@ img_height, img_width = 224,224
 batch_size = 20
 class_names=["A","B", "C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 train_ds = tf.keras.utils.image_dataset_from_directory(
-    "C:\\Users\\Prem\\OneDrive\\Desktop\\archive (1)(2)\\asl_alphabet_train\\asl_alphabet_train",
+    "DIRECTORY TO YOUR TRAINING IMAGES",
     image_size = (img_height, img_width),
     batch_size = batch_size,
     color_mode="rgb"
 )
 val_ds = tf.keras.utils.image_dataset_from_directory(
-    "C:\\Users\\Prem\\OneDrive\\Desktop\\archive (1)(2)\\asl_alphabet_test\\asl_alphabet_test",
+    "DIRECTORY TO YOUR TESTING IMAGES",
     image_size = (img_height, img_width),
     batch_size = batch_size,
     color_mode="rgb"
 )
 test_ds = tf.keras.utils.image_dataset_from_directory(
-    "C:\\Users\\Prem\\OneDrive\\Desktop\\archive (1)(2)\\asl_alphabet_test\\asl_alphabet_test",
+    "DIRECTORY TO YOUR TESTING IMAGES",
     image_size = (img_height, img_width),
     batch_size = batch_size,
     color_mode="rgb"
