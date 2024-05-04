@@ -26,13 +26,13 @@ Keras (TensorFlow backend)
 Clone the repository to your local machine.
 Install the required dependencies.
 Ensure that the keras_model.h5 (pre-trained CNN model) and labels.txt (class labels) files are present in the Model directory.
-Run the main.py script.
+Run the hand.py script.
 The system will start capturing video from your webcam and detect and classify ASL letters in real-time.
 
 
 # Model Training
 
-The CNN model used in this project was trained on the custom dataset. The model training process is not included in this repository. If you wish to retrain the model or train a new model, you will need to provide your own dataset and implement the necessary training scripts.
+The CNN model used in this project was trained on the custom dataset. If you wish to retrain the model or train a new model, you will need to provide your own dataset and implement the necessary training scripts. You can run the dataCollection.py script in order to collect pictures for your model to train on. Once the script has run press 's' on your keyboard to save the image. You will have to change the directory in the code based on the letter you are taking the image of. Next run the training.py code to train the model with the dataset created.
 
 
 # Acknowledgements
