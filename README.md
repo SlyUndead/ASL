@@ -6,7 +6,7 @@ This project aims to develop a system for detecting American Sign Language (ASL)
 # Project Overview
 The American Sign Language Detection system consists of two main components:
 Hand Detection: The system uses the HandDetector module from the cvzone library to detect and track the user's hand in real-time video input from a webcam.
-Sign Language Classification: The detected hand region is preprocessed and fed into a pre-trained CNN model for classification. The model predicts the corresponding ASL letter based on the hand gesture.
+Sign Language Classification: The detected hand region is preprocessed and fed into a custom-trained CNN model for classification. The model predicts the corresponding ASL letter based on the hand gesture.
 
 
 # Dataset
